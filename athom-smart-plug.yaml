@@ -36,7 +36,7 @@ substitutions:
   # Enable or disable the use of IPv6 networking on the device
   ipv6_enable: "false"
   # Power plug icon selection. Change to reflect the type/country of powr plug in use, this will update the power plug icon shown next to the switch
-  power_plug_type: "power-socket-eu"  # Options: power-socket-au | power-socket-ch | power-socket-de | power-socket-eu | power-socket-fr | power-socket-it | power-socket-jp | power-socket-uk | power-socket-us |
+  power_plug_type: "power-socket-au"  # Options: power-socket-au | power-socket-ch | power-socket-de | power-socket-eu | power-socket-fr | power-socket-it | power-socket-jp | power-socket-uk | power-socket-us |
 
 ########################## End of Substitutions #########################
 
@@ -157,7 +157,7 @@ bluetooth_proxy:
   active: true
 
 dashboard_import:
-  package_import_url: github://athom-tech/esp32-configs/athom-smart-plug.yaml
+  package_import_url: github://m7les/esp32-configs/athom-smart-plug.yaml
 
 uart:
   rx_pin: GPIO20
